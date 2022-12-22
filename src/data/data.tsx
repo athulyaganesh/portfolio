@@ -1,30 +1,33 @@
 import {
   AcademicCapIcon,
-  CalendarIcon,
+  //CalendarIcon,
   DownloadIcon,
+  //ExclamationCircleIcon,
   FlagIcon,
   MapIcon,
+  //MailIcon,
   OfficeBuildingIcon,
   SparklesIcon,
 } from '@heroicons/react/outline';
 
 import GithubIcon from '../components/Icon/GithubIcon';
-import InstagramIcon from '../components/Icon/InstagramIcon';
+//import InstagramIcon from '../components/Icon/InstagramIcon';
 import LinkedInIcon from '../components/Icon/LinkedInIcon';
-import StackOverflowIcon from '../components/Icon/StackOverflowIcon';
-import TwitterIcon from '../components/Icon/TwitterIcon';
+import EMailIcon from '../components/Icon/MailIcon';
+//import StackOverflowIcon from '../components/Icon/StackOverflowIcon';
+//import TwitterIcon from '../components/Icon/TwitterIcon';
 import heroImage from '../images/header-background.webp';
 import porfolioImage1 from '../images/portfolio/portfolio-1.jpg';
 import porfolioImage2 from '../images/portfolio/portfolio-2.jpg';
 import porfolioImage3 from '../images/portfolio/portfolio-3.jpg';
 import porfolioImage4 from '../images/portfolio/portfolio-4.jpg';
-import porfolioImage5 from '../images/portfolio/portfolio-5.jpg';
-import porfolioImage6 from '../images/portfolio/portfolio-6.jpg';
-import porfolioImage7 from '../images/portfolio/portfolio-7.jpg';
-import porfolioImage8 from '../images/portfolio/portfolio-8.jpg';
-import porfolioImage9 from '../images/portfolio/portfolio-9.jpg';
-import porfolioImage10 from '../images/portfolio/portfolio-10.jpg';
-import porfolioImage11 from '../images/portfolio/portfolio-11.jpg';
+//import porfolioImage5 from '../images/portfolio/portfolio-5.jpg';
+//import porfolioImage6 from '../images/portfolio/portfolio-6.jpg';
+//import porfolioImage7 from '../images/portfolio/portfolio-7.jpg';
+//import porfolioImage8 from '../images/portfolio/portfolio-8.jpg';
+//import porfolioImage9 from '../images/portfolio/portfolio-9.jpg';
+//import porfolioImage10 from '../images/portfolio/portfolio-10.jpg';
+//import porfolioImage11 from '../images/portfolio/portfolio-11.jpg';
 import profilepic from '../images/profilepic.jpg';
 import testimonialImage from '../images/testimonial.webp';
 import {
@@ -34,7 +37,7 @@ import {
   Hero,
   HomepageMeta,
   PortfolioItem,
-  SkillGroup,
+  //SkillGroup,
   Social,
   TestimonialSection,
   TimelineItem,
@@ -44,8 +47,8 @@ import {
  * Page meta data
  */
 export const homePageMeta: HomepageMeta = {
-  title: 'React Resume Template',
-  description: "Example site built with Tim Baker's react resume template",
+  title: 'Athulya Ganesh',
+  description: "Resume website",
 };
 
 /**
@@ -69,24 +72,22 @@ export type SectionId = typeof SectionId[keyof typeof SectionId];
  */
 export const heroData: Hero = {
   imageSrc: heroImage,
-  name: `I'm Tim Baker.`,
+  name: `Hi. I'm Athulya Ganesh.`,
   description: (
     <>
       <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
-        I'm a Victoria based <strong className="text-stone-100">Full Stack Software Engineer</strong>, currently working
-        at <strong className="text-stone-100">Instant Domains</strong> helping build a modern, mobile-first, domain
-        registrar and site builder.
+        <strong className="text-stone-100">Student. Developer. Fitness Enthusiast. Self-described funny person.</strong>
       </p>
       <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
-        In my free time time, you can catch me training in <strong className="text-stone-100">Muay Thai</strong>,
-        plucking my <strong className="text-stone-100">banjo</strong>, or exploring beautiful{' '}
-        <strong className="text-stone-100">Vancouver Island</strong>.
+        In my free time time, you can catch me practicing <strong className="text-stone-100">Yoga</strong>,
+        watching some <strong className="text-stone-100">Bollywood classics</strong>, or working on{' '}
+        <strong className="text-stone-100">fun projects.</strong>
       </p>
     </>
   ),
   actions: [
     {
-      href: '/assets/resume.pdf',
+      href: 'resume.pdf',
       text: 'Resume',
       primary: true,
       Icon: DownloadIcon,
@@ -104,22 +105,19 @@ export const heroData: Hero = {
  */
 export const aboutData: About = {
   profileImageSrc: profilepic,
-  description: `Use this bio section as your way of describing yourself and saying what you do, what technologies you like
-  to use or feel most comfortable with, describing your personality, or whatever else you feel like throwing
-  in.`,
+  description: `I am an undergraduate Computer Science major at the University of Cincinnati, looking out for new experiences in the field of CS. When I started my degree in Computer Science, I knew absolutely nothing. Hours of research, projects, Leetcode problems and internship searches, I am comfortable with what I have learnt, and would love to keep going. Join me on my quest to conquer this field!`,
   aboutItems: [
-    {label: 'Location', text: 'Victoria, BC', Icon: MapIcon},
-    {label: 'Age', text: '29', Icon: CalendarIcon},
-    {label: 'Nationality', text: 'Canadian / Irish', Icon: FlagIcon},
-    {label: 'Interests', text: 'Motorcycles, Muay Thai, Banjos', Icon: SparklesIcon},
-    {label: 'Study', text: 'University of Victoria', Icon: AcademicCapIcon},
-    {label: 'Employment', text: 'Instant Domains, inc.', Icon: OfficeBuildingIcon},
+    {label: 'Location', text: 'Cincinnati, OH', Icon: MapIcon},
+    {label: 'Nationality', text: 'Indian', Icon: FlagIcon},
+    {label: 'Interests', text: 'Dogs, Yoga, Bollywood movies', Icon: SparklesIcon},
+    {label: 'Study', text: 'University of Cincinnati', Icon: AcademicCapIcon},
+    {label: 'Employment', text: 'University of Cincinnati', Icon: OfficeBuildingIcon},
   ],
 };
 
 /**
  * Skills section
- */
+
 export const skills: SkillGroup[] = [
   {
     name: 'Spoken languages',
@@ -190,77 +188,84 @@ export const skills: SkillGroup[] = [
     ],
   },
 ];
+ */
 
 /**
  * Portfolio section
  */
 export const portfolioItems: PortfolioItem[] = [
   {
-    title: 'Project title 1',
-    description: 'Give a short description of your project here.',
-    url: 'https://timbaker.me',
+    title: 'Clinical Workflow Analysis Tool',
+    description: '',
+    url: 'https://www.youtube.com/watch?app=desktop&v=z3obuvSdLeg',
     image: porfolioImage1,
   },
   {
-    title: 'Project title 2',
-    description: 'Give a short description of your project here.',
-    url: 'https://timbaker.me',
+    title: 'FlaskBlog',
+    description: '',
+    url: 'https://athulyablog.herokuapp.com/',
     image: porfolioImage2,
   },
   {
-    title: 'Project title 3',
-    description: 'Give a short description of your project here.',
-    url: 'https://timbaker.me',
+    title: 'Bulletin Board Messaging System',
+    description: '',
+    url: 'https://github.com/athulyaganesh/messaging-system',
     image: porfolioImage3,
   },
   {
-    title: 'Project title 4',
-    description: 'Give a short description of your project here.',
-    url: 'https://timbaker.me',
+    title: 'Time Motion Data Collector',
+    description: '',
+    url: 'https://www.icdcu.org/project#h.ay6xeclicyq5',
     image: porfolioImage4,
-  },
-  {
-    title: 'Project title 5',
-    description: 'Give a short description of your project here.',
-    url: 'https://timbaker.me',
-    image: porfolioImage5,
-  },
-  {
-    title: 'Project title 6',
-    description: 'Give a short description of your project here.',
-    url: 'https://timbaker.me',
-    image: porfolioImage6,
-  },
-  {
-    title: 'Project title 7',
-    description: 'Give a short description of your project here.',
-    url: 'https://timbaker.me',
-    image: porfolioImage7,
-  },
-  {
-    title: 'Project title 8',
-    description: 'Give a short description of your project here.',
-    url: 'https://timbaker.me',
-    image: porfolioImage8,
-  },
-  {
-    title: 'Project title 9',
-    description: 'Give a short description of your project here.',
-    url: 'https://timbaker.me',
-    image: porfolioImage9,
-  },
-  {
-    title: 'Project title 10',
-    description: 'Give a short description of your project here.',
-    url: 'https://timbaker.me',
-    image: porfolioImage10,
-  },
-  {
-    title: 'Project title 11',
-    description: 'Give a short description of your project here.',
-    url: 'https://timbaker.me',
-    image: porfolioImage11,
-  },
+  }
+  //{
+  //   title: 'Time Motion Data Collector',
+  //   description: '',
+  //   url: 'https://www.icdcu.org/project#h.ay6xeclicyq5',
+  //   image: porfolioImage4,
+  // },
+  // {
+  //   title: 'Project title 5',
+  //   description: 'Give a short description of your project here.',
+  //   url: 'https://timbaker.me',
+  //   image: porfolioImage5,
+  // },
+  // {
+  //   title: 'Project title 6',
+  //   description: 'Give a short description of your project here.',
+  //   url: 'https://timbaker.me',
+  //   image: porfolioImage6,
+  // },
+  // {
+  //   title: 'Project title 7',
+  //   description: 'Give a short description of your project here.',
+  //   url: 'https://timbaker.me',
+  //   image: porfolioImage7,
+  // },
+  // {
+  //   title: 'Project title 8',
+  //   description: 'Give a short description of your project here.',
+  //   url: 'https://timbaker.me',
+  //   image: porfolioImage8,
+  // },
+  // {
+  //   title: 'Project title 9',
+  //   description: 'Give a short description of your project here.',
+  //   url: 'https://timbaker.me',
+  //   image: porfolioImage9,
+  // },
+  // {
+  //   title: 'Project title 10',
+  //   description: 'Give a short description of your project here.',
+  //   url: 'https://timbaker.me',
+  //   image: porfolioImage10,
+  // },
+  // {
+  //   title: 'Project title 11',
+  //   description: 'Give a short description of your project here.',
+  //   url: 'https://timbaker.me',
+  //   image: porfolioImage11,
+  // },
 ];
 
 /**
@@ -268,39 +273,57 @@ export const portfolioItems: PortfolioItem[] = [
  */
 export const education: TimelineItem[] = [
   {
-    date: 'April 2007',
-    location: 'Clown college',
-    title: 'Masters in Beer tasting',
-    content: <p>Describe your experience at school, what you learned, what useful skills you have acquired etc.</p>,
+    date: 'May 2024',
+    location: 'University of Cincinnati',
+    title: 'Masters of Engineering in Computer Science',
+    content: <p>A combined program with my Bachelors degree. I will receive both in May 2024.</p>,
   },
   {
-    date: 'March 2003',
-    location: 'School of Business',
-    title: 'What did you study 101',
-    content: <p>Describe your experience at school, what you learned, what useful skills you have acquired etc.</p>,
+    date: 'May 2024',
+    location: 'University of Cincinnati',
+    title: 'Bachelors of Science in Computer Science',
+    content: <p>Part of UC Honors Program. Recipient of UC Global & UC International Outreach Scholarship</p>,
   },
 ];
 
 export const experience: TimelineItem[] = [
   {
-    date: 'March 2010 - Present',
-    location: 'Awesome Development Company',
-    title: 'Senior UX Engineer',
+    date: 'August 2022 - Present',
+    location: 'University of Cincinnati, Cincinnati',
+    title: 'Resident Advisor',
     content: (
       <p>
-        Describe work, special projects, notable achievements, what technologies you have been working with, and
-        anything else that would be useful for an employer to know.
+      Promote an environment conducive to living and learning, foster the personal growth of students within the residence hall.
       </p>
     ),
   },
   {
-    date: 'March 2007 - February 2010',
-    location: 'Garage Startup Studio',
-    title: 'Junior bug fixer',
+    date: 'May 2022 - August 2022',
+    location: 'FOX Sports, Cincinnati',
+    title: 'Software Engineer Co-op',
     content: (
       <p>
-        Describe work, special projects, notable achievements, what technologies you have been working with, and
-        anything else that would be useful for an employer to know.
+      Create, test, debug, document and implement software features, working directly with the developer team.
+      </p>
+    ),
+  },
+  {
+    date: 'August 2021 - December 2021',
+    location: 'Infinera, San Jose',
+    title: 'Application Specific Integrated Circuit Intern',
+    content: (
+      <p>
+        Designed and developed a health checker API for the ASIC chip capable of traversing and logging register-level errors.
+      </p>
+    ),
+  },
+  {
+    date: 'January 2021 - May 2021',
+    location: 'ICDCU Lab, Cincinnati',
+    title: 'Web Development Intern',
+    content: (
+      <p>
+      Created a platform to add, edit, delete and download project files allowing 35 lab members to collaborate on research.
       </p>
     ),
   },
@@ -313,20 +336,20 @@ export const testimonial: TestimonialSection = {
   imageSrc: testimonialImage,
   testimonials: [
     {
-      name: 'John Doe',
-      text: 'Use this as an opportunity to promote what it is like to work with you. High value testimonials include ones from current or past co-workers, managers, or from happy clients.',
-      image: 'https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/169.jpg',
+      name: 'Tom Zentemeyer, VP Fox Sports',
+      text: 'Athulya is always professional and displays strong initiative. Our team was impressed by her efforts to go beyond what was expected of her and pick up new roles as opportunities became available. Athulya is a go-getter who makes the most of opportunities for learning and self-improvement.',
+      image: '',
     },
-    {
-      name: 'Jane Doe',
-      text: 'Here you should write some nice things that someone has said about you. Encourage them to be specific and include important details (notes about a project you were on together, impressive quality produced, etc).',
-      image: 'https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/14.jpg',
-    },
-    {
-      name: 'Someone else',
-      text: 'Add several of these, and keep them as fresh as possible, but be sure to focus on quality testimonials with strong highlights of your skills/work ethic.',
-      image: 'https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/69.jpg',
-    },
+    // {
+    //   name: 'Jane Doe',
+    //   text: 'Here you should write some nice things that someone has said about you. Encourage them to be specific and include important details (notes about a project you were on together, impressive quality produced, etc).',
+    //   image: 'https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/14.jpg',
+    // },
+    // {
+    //   name: 'Someone else',
+    //   text: 'Add several of these, and keep them as fresh as possible, but be sure to focus on quality testimonials with strong highlights of your skills/work ethic.',
+    //   image: 'https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/69.jpg',
+    // },
   ],
 };
 
@@ -336,27 +359,22 @@ export const testimonial: TestimonialSection = {
 
 export const contact: ContactSection = {
   headerText: 'Get in touch.',
-  description: 'Here is a good spot for a message to your readers to let them know how best to reach out to you.',
+  description: 'Reach out to me with project ideas you would like to collaborate on, or just for fun!',
   items: [
     {
       type: ContactType.Email,
-      text: 'reachout@timbaker.me',
-      href: 'mailto:reachout@timbaker.me',
+      text: 'athulya.ganesh2001@gmail.com',
+      href: 'mailto:athulya.ganesh2001@gmail.com',
     },
     {
-      type: ContactType.Location,
-      text: 'Victoria BC, Canada',
-      href: 'https://www.google.ca/maps/place/Victoria,+BC/@48.4262362,-123.376775,14z',
-    },
-    {
-      type: ContactType.Instagram,
-      text: '@tbakerx',
-      href: 'https://www.instagram.com/tbakerx/',
+      type: ContactType.LinkedIn,
+      text: 'Athulya Ganesh',
+      href: 'https://www.linkedin.com/in/athulya-ganesh/',
     },
     {
       type: ContactType.Github,
-      text: 'tbakerx',
-      href: 'https://github.com/tbakerx',
+      text: 'athulyaganesh',
+      href: 'https://github.com/athulyaganesh/',
     },
   ],
 };
@@ -365,9 +383,7 @@ export const contact: ContactSection = {
  * Social items
  */
 export const socialLinks: Social[] = [
-  {label: 'Github', Icon: GithubIcon, href: 'https://github.com/tbakerx'},
-  {label: 'Stack Overflow', Icon: StackOverflowIcon, href: 'https://stackoverflow.com/users/8553186/tim-baker'},
-  {label: 'LinkedIn', Icon: LinkedInIcon, href: 'https://www.linkedin.com/in/timbakerx/'},
-  {label: 'Instagram', Icon: InstagramIcon, href: 'https://www.instagram.com/tbakerx/'},
-  {label: 'Twitter', Icon: TwitterIcon, href: 'https://twitter.com/TimBakerx'},
+  {label: 'Github', Icon: GithubIcon, href: 'https://github.com/athulyaganesh'},
+  {label: 'LinkedIn', Icon: LinkedInIcon, href: 'https://www.linkedin.com/in/athulyaganesh/'},
+  {label: 'Email', Icon: EMailIcon, href:"athulya.ganesh2001@gmail.com"}
 ];

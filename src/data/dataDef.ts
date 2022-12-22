@@ -68,10 +68,10 @@ export interface Skill {
   max?: number;
 }
 
-export interface SkillGroup {
-  name: string;
-  skills: Skill[];
-}
+//export interface SkillGroup {
+  //name: string;
+  //skills: Skill[];
+//}
 
 /**
  * Portfolio section

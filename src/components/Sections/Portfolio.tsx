@@ -3,7 +3,7 @@ import classNames from 'classnames';
 import Image from 'next/image';
 import {FC, memo, MouseEvent, useCallback, useEffect, useRef, useState} from 'react';
 
-import {isMobile} from '../../config';
+import {isMobile} from '../../../config';
 import {portfolioItems, SectionId} from '../../data/data';
 import {PortfolioItem} from '../../data/dataDef';
 import useDetectOutsideClick from '../../hooks/useDetectOutsideClick';
