@@ -48,7 +48,7 @@ import {
  */
 export const homePageMeta: HomepageMeta = {
   title: 'Athulya Ganesh',
-  description: "Resume website",
+  description: 'Resume website',
 };
 
 /**
@@ -79,8 +79,8 @@ export const heroData: Hero = {
         <strong className="text-stone-100">Student. Developer. Fitness Enthusiast. Self-described funny person.</strong>
       </p>
       <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
-        In my free time time, you can catch me practicing <strong className="text-stone-100">Yoga</strong>,
-        watching some <strong className="text-stone-100">Bollywood classics</strong>, or working on{' '}
+        In my free time time, you can catch me practicing <strong className="text-stone-100">Yoga</strong>, watching
+        some <strong className="text-stone-100">Bollywood classics</strong>, or working on{' '}
         <strong className="text-stone-100">fun projects.</strong>
       </p>
     </>
@@ -217,7 +217,7 @@ export const portfolioItems: PortfolioItem[] = [
     description: '',
     url: 'https://www.icdcu.org/project#h.ay6xeclicyq5',
     image: porfolioImage4,
-  }
+  },
   //{
   //   title: 'Time Motion Data Collector',
   //   description: '',
@@ -287,13 +287,26 @@ export const education: TimelineItem[] = [
 ];
 
 export const experience: TimelineItem[] = [
+    {
+    date: 'January 2022 - Present',
+    location: 'University of Cincinnati, Cincinnati',
+    title: 'Part Time Student Worker at AIMS and MEMS Laboratory',
+    content: (
+      <p>
+        Working on a Flask Application to collect particulate data in real-time (using RaspberryPi)and display
+        it on various graphs.
+      </p>
+    ),
+
+    },
   {
     date: 'August 2022 - Present',
     location: 'University of Cincinnati, Cincinnati',
     title: 'Resident Advisor',
     content: (
       <p>
-      Promote an environment conducive to living and learning, foster the personal growth of students within the residence hall.
+        Promote an environment conducive to living and learning, foster the personal growth of students within the
+        residence hall.
       </p>
     ),
   },
@@ -302,9 +315,7 @@ export const experience: TimelineItem[] = [
     location: 'FOX Sports, Cincinnati',
     title: 'Software Engineer Co-op',
     content: (
-      <p>
-      Create, test, debug, document and implement software features, working directly with the developer team.
-      </p>
+      <p>Create, test, debug, document and implement software features, working directly with the developer team.</p>
     ),
   },
   {
@@ -313,7 +324,8 @@ export const experience: TimelineItem[] = [
     title: 'Application Specific Integrated Circuit Intern',
     content: (
       <p>
-        Designed and developed a health checker API for the ASIC chip capable of traversing and logging register-level errors.
+        Designed and developed a health checker API for the ASIC chip capable of traversing and logging register-level
+        errors.
       </p>
     ),
   },
@@ -323,7 +335,8 @@ export const experience: TimelineItem[] = [
     title: 'Web Development Intern',
     content: (
       <p>
-      Created a platform to add, edit, delete and download project files allowing 35 lab members to collaborate on research.
+        Created a platform to add, edit, delete and download project files allowing 35 lab members to collaborate on
+        research.
       </p>
     ),
   },
@@ -385,5 +398,5 @@ export const contact: ContactSection = {
 export const socialLinks: Social[] = [
   {label: 'Github', Icon: GithubIcon, href: 'https://github.com/athulyaganesh'},
   {label: 'LinkedIn', Icon: LinkedInIcon, href: 'https://www.linkedin.com/in/athulyaganesh/'},
-  {label: 'Email', Icon: EMailIcon, href:"athulya.ganesh2001@gmail.com"}
+  {label: 'Email', Icon: EMailIcon, href: 'athulya.ganesh2001@gmail.com'},
 ];

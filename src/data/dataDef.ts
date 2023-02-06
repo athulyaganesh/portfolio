@@ -69,8 +69,8 @@ export interface Skill {
 }
 
 //export interface SkillGroup {
-  //name: string;
-  //skills: Skill[];
+//name: string;
+//skills: Skill[];
 //}
 
 /**
