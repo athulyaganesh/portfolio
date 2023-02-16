@@ -397,6 +397,6 @@ export const contact: ContactSection = {
  */
 export const socialLinks: Social[] = [
   {label: 'Github', Icon: GithubIcon, href: 'https://github.com/athulyaganesh'},
-  {label: 'LinkedIn', Icon: LinkedInIcon, href: 'https://www.linkedin.com/in/athulyaganesh/'},
+  {label: 'LinkedIn', Icon: LinkedInIcon, href: 'https://www.linkedin.com/in/athulya-ganesh/'},
   {label: 'Email', Icon: EMailIcon, href: 'athulya.ganesh2001@gmail.com'},
 ];
