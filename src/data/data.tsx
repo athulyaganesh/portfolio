@@ -21,6 +21,7 @@ import porfolioImage1 from '../images/portfolio/portfolio-1.jpg';
 import porfolioImage2 from '../images/portfolio/portfolio-2.jpg';
 import porfolioImage3 from '../images/portfolio/portfolio-3.jpg';
 import porfolioImage4 from '../images/portfolio/portfolio-4.jpg';
+import portfolioImage0 from '../images/portfolio/portfolio-0.png';
 //import porfolioImage5 from '../images/portfolio/portfolio-5.jpg';
 //import porfolioImage6 from '../images/portfolio/portfolio-6.jpg';
 //import porfolioImage7 from '../images/portfolio/portfolio-7.jpg';
@@ -203,7 +204,7 @@ export const portfolioItems: PortfolioItem[] = [
   {
     title: 'FlaskBlog',
     description: '',
-    url: 'https://athulyablog.herokuapp.com/',
+    url: 'https://github.com/athulyaganesh/flaskapp',
     image: porfolioImage2,
   },
   {
@@ -217,6 +218,12 @@ export const portfolioItems: PortfolioItem[] = [
     description: '',
     url: 'https://www.icdcu.org/project#h.ay6xeclicyq5',
     image: porfolioImage4,
+  },
+  {
+    title: 'Azure Data Visualization',
+    description: '',
+    url: 'https://github.com/athulyaganesh/Cloud-Computing-Final-Project',
+    image: portfolioImage0,
   },
   //{
   //   title: 'Time Motion Data Collector',
@@ -273,13 +280,13 @@ export const portfolioItems: PortfolioItem[] = [
  */
 export const education: TimelineItem[] = [
   {
-    date: 'May 2024',
+    date: 'May/Dec 2024',
     location: 'University of Cincinnati',
     title: 'Masters of Engineering in Computer Science',
-    content: <p>A combined program with my Bachelors degree. I will receive both in May 2024.</p>,
+    content: <p>A combined program with my Bachelors degree. I will receive both in May 2024 (or December 2024).</p>,
   },
   {
-    date: 'May 2024',
+    date: 'May/Dec 2024',
     location: 'University of Cincinnati',
     title: 'Bachelors of Science in Computer Science',
     content: <p>Part of UC Honors Program. Recipient of UC Global & UC International Outreach Scholarship</p>,
@@ -287,7 +294,17 @@ export const education: TimelineItem[] = [
 ];
 
 export const experience: TimelineItem[] = [
-    {
+  {
+    date: 'May 2023 - August 2023',
+    location: 'Nokia',
+    title: 'Embedded Software Engineering Intern',
+    content: (
+      <p>
+        Achieved precise validation and industry compliance with advanced Ethernet OAM Testbench development
+      </p>
+    ),
+  } , 
+  {
     date: 'January 2022 - Present',
     location: 'University of Cincinnati, Cincinnati',
     title: 'Part Time Student Worker at AIMS and MEMS Laboratory',
@@ -349,10 +366,14 @@ export const testimonial: TestimonialSection = {
   imageSrc: testimonialImage,
   testimonials: [
     {
-      name: 'Tom Zentemeyer, VP Fox Sports',
+      name: 'Tom Zentemeyer, VP @ Fox Sports',
       text: 'Athulya is always professional and displays strong initiative. Our team was impressed by her efforts to go beyond what was expected of her and pick up new roles as opportunities became available. Athulya is a go-getter who makes the most of opportunities for learning and self-improvement.',
       image: '',
     },
+    {
+      name: 'Hardeep Singh, Senior Engineer @ Nokia',
+      text: 'It was a pleasure to have Athulya as a co-op and contribute in our division!'
+    }
     // {
     //   name: 'Jane Doe',
     //   text: 'Here you should write some nice things that someone has said about you. Encourage them to be specific and include important details (notes about a project you were on together, impressive quality produced, etc).',
