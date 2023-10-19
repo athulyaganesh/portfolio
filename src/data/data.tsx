@@ -28,7 +28,7 @@ import portfolioImage0 from '../images/portfolio/portfolio-0.png';
 //import porfolioImage8 from '../images/portfolio/portfolio-8.jpg';
 //import porfolioImage9 from '../images/portfolio/portfolio-9.jpg';
 //import porfolioImage10 from '../images/portfolio/portfolio-10.jpg';
-//import porfolioImage11 from '../images/portfolio/portfolio-11.jpg';
+import porfolioImage12 from '../images/portfolio/portfolio-12.jpg';
 import profilepic from '../images/profilepic.jpg';
 import testimonialImage from '../images/testimonial.webp';
 import {
@@ -225,6 +225,13 @@ export const portfolioItems: PortfolioItem[] = [
     url: 'https://github.com/athulyaganesh/Cloud-Computing-Final-Project',
     image: portfolioImage0,
   },
+  {
+    title: 'athuDesk',
+    description: '',
+    url: 'https://ui-smart-desk.vercel.app/',
+    image: porfolioImage12,
+  }
+
   //{
   //   title: 'Time Motion Data Collector',
   //   description: '',
