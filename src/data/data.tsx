@@ -16,19 +16,17 @@ import LinkedInIcon from '../components/Icon/LinkedInIcon';
 import EMailIcon from '../components/Icon/MailIcon';
 //import StackOverflowIcon from '../components/Icon/StackOverflowIcon';
 //import TwitterIcon from '../components/Icon/TwitterIcon';
+import portfolioImage0 from '../images/portfolio/portfolio-0.png';
 import heroImage from '../images/header-background.webp';
 import porfolioImage1 from '../images/portfolio/portfolio-1.jpg';
 import porfolioImage2 from '../images/portfolio/portfolio-2.jpg';
 import porfolioImage3 from '../images/portfolio/portfolio-3.jpg';
 import porfolioImage4 from '../images/portfolio/portfolio-4.jpg';
-import portfolioImage0 from '../images/portfolio/portfolio-0.png';
-//import porfolioImage5 from '../images/portfolio/portfolio-5.jpg';
-//import porfolioImage6 from '../images/portfolio/portfolio-6.jpg';
-//import porfolioImage7 from '../images/portfolio/portfolio-7.jpg';
-//import porfolioImage8 from '../images/portfolio/portfolio-8.jpg';
-//import porfolioImage9 from '../images/portfolio/portfolio-9.jpg';
-//import porfolioImage10 from '../images/portfolio/portfolio-10.jpg';
 import porfolioImage12 from '../images/portfolio/portfolio-12.jpg';
+import portfolioImage13 from '../images/portfolio/portfolio-13.jpg';
+import portfolioImage14 from '../images/portfolio/portfolio-14.jpg';
+import portfolioImage15 from '../images/portfolio/portfolio-15.jpg';
+
 import profilepic from '../images/profilepic.jpg';
 import testimonialImage from '../images/testimonial.webp';
 import {
@@ -230,7 +228,26 @@ export const portfolioItems: PortfolioItem[] = [
     description: '',
     url: 'https://ui-smart-desk.vercel.app/',
     image: porfolioImage12,
+  }, 
+  {
+    title: 'dancevision',
+    description: '',
+    url: 'https://www.figma.com/file/T7vnLTLLM7szsg422XGj29/Web-App-UI?type=design&mode=design&t=4hrZrkhb7RQz2H7g-0',
+    image: portfolioImage13,
+  },
+  {
+    title: 'leettrack',
+    description: '', 
+    url: 'https://leettrack-sigma.vercel.app/',
+    image: portfolioImage14,
+  },
+  {
+    title: 'athuNotes',
+    description: '', 
+    url: 'https://github.com/athulyaganesh/athuNotes',
+    image: portfolioImage15,
   }
+
 
   //{
   //   title: 'Time Motion Data Collector',
