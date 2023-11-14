@@ -22,6 +22,7 @@ import porfolioImage1 from '../images/portfolio/portfolio-1.jpg';
 import porfolioImage2 from '../images/portfolio/portfolio-2.jpg';
 import porfolioImage3 from '../images/portfolio/portfolio-3.jpg';
 import porfolioImage4 from '../images/portfolio/portfolio-4.jpg';
+import portfolioImage5 from "../images/portfolio/portfolio-5.jpg"; 
 import porfolioImage12 from '../images/portfolio/portfolio-12.jpg';
 import portfolioImage13 from '../images/portfolio/portfolio-13.jpg';
 import portfolioImage14 from '../images/portfolio/portfolio-14.jpg';
@@ -217,6 +218,12 @@ export const portfolioItems: PortfolioItem[] = [
     url: 'https://www.icdcu.org/project#h.ay6xeclicyq5',
     image: porfolioImage4,
   },
+  {
+    title: 'Alterna-Canvas (Gamified)', 
+    description: "", 
+    url: 'https://alterna-canvas.vercel.app/',
+    image: portfolioImage5
+  }, 
   {
     title: 'Azure Data Visualization',
     description: '',
