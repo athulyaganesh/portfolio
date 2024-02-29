@@ -1,6 +1,6 @@
 import dynamic from 'next/dynamic';
 import {FC, memo} from 'react';
-import { Analytics } from "@vercel/analytics/react"
+// import { Analytics } from "@vercel/analytics/react"
 
 import Page from '../components/Layout/Page';
 import About from '../components/Sections/About';
@@ -28,7 +28,7 @@ const Home: FC = memo(() => {
       <Testimonials />
       <Contact />
       <Footer />
-      <Analytics />
+      {/* <Analytics /> */}
     </Page>
   );
 });
