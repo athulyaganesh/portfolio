@@ -23,6 +23,7 @@ import porfolioImage2 from '../images/portfolio/portfolio-2.jpg';
 import porfolioImage3 from '../images/portfolio/portfolio-3.jpg';
 import porfolioImage4 from '../images/portfolio/portfolio-4.jpg';
 import portfolioImage5 from "../images/portfolio/portfolio-5.jpg"; 
+import portfolioImage6 from "../images/portfolio/portfolio-6.png"; 
 import porfolioImage12 from '../images/portfolio/portfolio-12.jpg';
 import portfolioImage13 from '../images/portfolio/portfolio-13.jpg';
 import portfolioImage14 from '../images/portfolio/portfolio-14.jpg';
@@ -205,6 +206,12 @@ export const portfolioItems: PortfolioItem[] = [
     description: '',
     url: 'https://github.com/athulyaganesh/flaskapp',
     image: porfolioImage2,
+  },
+  {
+    title: 'D3.js Health Data Visualization',
+    description: '', 
+    url: "https://main--health-usa-metric.netlify.app/",
+    image: portfolioImage6
   },
   {
     title: 'Bulletin Board Messaging System',
