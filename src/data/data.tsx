@@ -24,6 +24,7 @@ import porfolioImage3 from '../images/portfolio/portfolio-3.jpg';
 import porfolioImage4 from '../images/portfolio/portfolio-4.jpg';
 import portfolioImage5 from "../images/portfolio/portfolio-5.jpg"; 
 import portfolioImage6 from "../images/portfolio/portfolio-6.png"; 
+import portfolioImage7 from "../images/portfolio/portfolio-7.jpg"; 
 import porfolioImage12 from '../images/portfolio/portfolio-12.jpg';
 import portfolioImage13 from '../images/portfolio/portfolio-13.jpg';
 import portfolioImage14 from '../images/portfolio/portfolio-14.jpg';
@@ -244,9 +245,9 @@ export const portfolioItems: PortfolioItem[] = [
     image: porfolioImage12,
   }, 
   {
-    title: 'dancevision',
+    title: '[SIGHTSTEP] by the Vision Vanguards (Senior Design Project)',
     description: '',
-    url: 'https://www.figma.com/file/T7vnLTLLM7szsg422XGj29/Web-App-UI?type=design&mode=design&t=4hrZrkhb7RQz2H7g-0',
+    url: 'https://www.github.com/mullise147/VisionVanguards',
     image: portfolioImage13,
   },
   {
@@ -260,6 +261,12 @@ export const portfolioItems: PortfolioItem[] = [
     description: '', 
     url: 'https://github.com/athulyaganesh/athuNotes',
     image: portfolioImage15,
+  },
+  {
+    title: 'UFO Data Visualization',
+    description: '',
+    url: 'https://github.com/nishilfaldu/ufo-sightings-visualization',
+    image: portfolioImage7
   }
 
 
@@ -410,7 +417,15 @@ export const testimonial: TestimonialSection = {
     },
     {
       name: 'Hardeep Singh, Senior Engineer @ Nokia',
-      text: 'It was a pleasure to have Athulya as a co-op and contribute in our division!'
+      text: 'During her internship, Athulya made significant contributions to our IP Division, specifically focusing on the implementation of embedded software code for 5G mobile backhaul routers. Athulya exhibited remarkable strengths throughout her internship, particularly in communication, initiative and perseverence. Athulya demonstrated a keen initiative in rapidly acquiring new knowledge and skills, playing a pivotal role in the cleanup of testbench code.'
+    },
+    {
+      name: 'Dr. Tao Li, Associate Professor and UC MEM and AIM Laboratory',
+      text: 'I would like to highlight the active participation in sensor and pump selection research, where her insights have been valuable in guiding the team towards optimal choices. Her ability to collaborate with fellow researchers and contribute meaningfully to the decision making process has been commendable. '
+    },
+    {
+      name: 'Dr. Jillian Aurisano, Associate Professor and DaVINCI Laboratory',
+      text: 'Athulya has impressed me with her deep technical knowledge. In my discussions of her senior design project, she is quick to break complex tasks into components and describe the constraints and requirements for realizing project goals. Athulya also has a unique talent for user-experience design, visual-design and front-end development. Athulya has impressed me with her creativity in considering diverse designs to address user-experience challenges. Athulya is also a student who has significant leadership potential. Athulya has an effective communication style in meetings and in presentations to the class. In collaborative discussions, she is quick to synthesize disparate discussion points and propose plans and solution. '
     }
     // {
     //   name: 'Jane Doe',
