@@ -25,6 +25,7 @@ import porfolioImage4 from '../images/portfolio/portfolio-4.jpg';
 import portfolioImage5 from "../images/portfolio/portfolio-5.jpg"; 
 import portfolioImage6 from "../images/portfolio/portfolio-6.png"; 
 import portfolioImage7 from "../images/portfolio/portfolio-7.jpg"; 
+import portfolioImage8 from "../images/portfolio/portfolio-8.jpg"; 
 import porfolioImage12 from '../images/portfolio/portfolio-12.jpg';
 import portfolioImage13 from '../images/portfolio/portfolio-13.jpg';
 import portfolioImage14 from '../images/portfolio/portfolio-14.jpg';
@@ -267,8 +268,13 @@ export const portfolioItems: PortfolioItem[] = [
     description: '',
     url: 'https://github.com/nishilfaldu/ufo-sightings-visualization',
     image: portfolioImage7
-  }
-
+  },
+  {
+    title: 'Exploring the TV Show: Frasier',
+    description: '',
+    url: 'https://balfouwuc.github.io/DataVisProject3TVTime/',
+    image: portfolioImage8
+  },
 
   //{
   //   title: 'Time Motion Data Collector',
