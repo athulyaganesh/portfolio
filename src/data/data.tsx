@@ -79,7 +79,7 @@ export const heroData: Hero = {
   description: (
     <>
       <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
-        <strong className="text-stone-100">Student. Developer. Fitness Enthusiast. Self-described funny person.</strong>
+        <strong className="text-stone-100">Leaner. Developer. Fitness Enthusiast. Self-described funny person.</strong>
       </p>
       <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
         In my free time time, you can catch me practicing <strong className="text-stone-100">Yoga</strong>, watching
@@ -108,13 +108,13 @@ export const heroData: Hero = {
  */
 export const aboutData: About = {
   profileImageSrc: profilepic,
-  description: `I am an undergraduate Computer Science major at the University of Cincinnati, looking out for new experiences in the field of CS. When I started my degree in Computer Science, I knew absolutely nothing. Hours of research, projects, Leetcode problems and internship searches, I am comfortable with what I have learnt, and would love to keep going. Join me on my quest to conquer this field!`,
+  description: `I am an undergraduate and Masters Computer Science graduate from the University of Cincinnati, looking out for new experiences in the field of Computer Science. When I started my degree in Computer Science, I knew absolutely nothing. Hours of research, projects, Leetcode problems and internship searches, I am comfortable with what I have learnt, and would love to keep going. Join me on my quest to conquer this field!`,
   aboutItems: [
     {label: 'Location', text: 'Cincinnati, OH', Icon: MapIcon},
     {label: 'Nationality', text: 'Indian', Icon: FlagIcon},
     {label: 'Interests', text: 'Dogs, Yoga, Bollywood movies', Icon: SparklesIcon},
     {label: 'Study', text: 'University of Cincinnati', Icon: AcademicCapIcon},
-    {label: 'Employment', text: 'University of Cincinnati', Icon: OfficeBuildingIcon},
+    {label: 'Employment', text: 'ITW', Icon: OfficeBuildingIcon},
   ],
 };
 
@@ -331,39 +331,54 @@ export const portfolioItems: PortfolioItem[] = [
  */
 export const education: TimelineItem[] = [
   {
-    date: 'May/Dec 2024',
+    date: 'December 2024',
     location: 'University of Cincinnati',
     title: 'Masters of Engineering in Computer Science',
-    content: <p>A combined program with my Bachelors degree. I will receive both in May 2024 (or December 2024).</p>,
+    content: <p>A combined program with my Bachelors degree. I will receive this degree in December 2024.</p>,
   },
   {
-    date: 'May/Dec 2024',
+    date: 'May 2024',
     location: 'University of Cincinnati',
     title: 'Bachelors of Science in Computer Science',
-    content: <p>Part of UC Honors Program. Recipient of UC Global & UC International Outreach Scholarship</p>,
+    content: <p>Distinguished Honors Scholar; Summa Cum Laude. Recipient of UC Global & UC International Outreach Scholarship, graduated in May 2024.</p>,
   },
 ];
 
 export const experience: TimelineItem[] = [
   {
+    date: 'June 2024 - Present',
+    location: 'ITW',
+    title: 'Software Engineer',
+    content: ( <ul>
+      <li>Implemented full-stack features using C++, JavaScript, QML and SQL, reducing processing time by 25% for clients like Walmart.</li>
+      <li>Envisioned and optimized Python scripts to reduce data retrieval time by 30%, accelerating weighing and boosting revenue by $50k.</li>
+      <li>Aligned closely with clients to deliver unique features 9% ahead of schedule, enhancing relationships with key accounts like Costco.</li>
+      </ul>
+    ),
+  } , 
+  {
     date: 'May 2023 - August 2023',
     location: 'Nokia',
-    title: 'Embedded Software Engineering Intern',
+    title: 'Software Engineering Intern',
     content: (
-      <p>
-        Achieved precise validation and industry compliance with advanced Ethernet OAM Testbench development
-      </p>
+      <ul>
+      <li>Generated a Java web application, enhancing system performance by 20% through optimized code and efficient database integration.</li>
+      <li>Implemented backend services and Python scripts, and tested with Docker for containerization, reducing monthly bug reports by 20%.</li>
+      <li>Teamed with cross-functional experts to integrate Java applications, cutting integration time by 2 weeks, enhancing project efficiency.</li>
+      </ul>
     ),
   } , 
   {
     date: 'January 2022 - Present',
     location: 'University of Cincinnati, Cincinnati',
     title: 'Part Time Student Worker at AIMS and MEMS Laboratory',
-    content: (
-      <p>
-        Working on a Flask Application to collect particulate data in real-time (using RaspberryPi)and display
-        it on various graphs.
-      </p>
+    content: ( <ul>
+      <li> Working on a Flask Application to collect particulate data in real-time (using RaspberryPi) and display
+      it on various graphs.</li>
+      <li>Optimized Linux OS on Raspberry Pi, reducing current draw by 23.6%, showing system efficiency skills.</li>
+      <li>Improved 3D printing and inventory documentation reflecting resilience and market impact potential.</li>
+    </ul>
+     
     ),
 
     },
@@ -372,10 +387,12 @@ export const experience: TimelineItem[] = [
     location: 'University of Cincinnati, Cincinnati',
     title: 'Resident Advisor',
     content: (
-      <p>
-        Promote an environment conducive to living and learning, foster the personal growth of students within the
-        residence hall.
-      </p>
+      <ul>
+        <li>Developed and implemented educational programs and workshops on topics such as time management, study skills, and wellness, enhancing the overall academic and personal growth of residents.</li>
+        <li>Organized and led community-building activities and events to promote social interaction, cultural awareness, and a sense of belonging among residents.</li>
+      <li>Provided individualized support and mentorship to students, assisting with academic challenges, personal development, and conflict resolution, fostering a supportive and inclusive living environment.
+      </li>
+      </ul>
     ),
   },
   {
@@ -383,29 +400,34 @@ export const experience: TimelineItem[] = [
     location: 'FOX Sports, Cincinnati',
     title: 'Software Engineer Co-op',
     content: (
-      <p>Create, test, debug, document and implement software features, working directly with the developer team.</p>
+      <ul>
+      <li>Developed interactive features using JavaScript, specific to the live World Cup match scoring, garnering 93% positive user reviews.</li>
+      <li>Optimized user interface for 20+ pages using JSON tests, greatly improving user experience, increasing conversion rates by 20.4%.</li>
+      <li>Facilitated stand-ups as interim Agile project manager, enhancing collaboration by aligning tasks with skills and optimizing delegation.</li>
+      </ul>
     ),
   },
   {
     date: 'August 2021 - December 2021',
     location: 'Infinera, San Jose',
-    title: 'Application Specific Integrated Circuit Intern',
-    content: (
-      <p>
-        Designed and developed a health checker API for the ASIC chip capable of traversing and logging register-level
-        errors.
-      </p>
+    title: 'Software Engineer Intern',
+    content: (<ul>
+      <li>Engineered a robust ASIC chip health check API in Python, ensuring performance and stability, improving diagnostic accuracy by 30%.</li>
+      <li>Created a React dashboard to visualize API results, enabling the team to solve issues faster, handling 2x the volume of cases weekly.</li>
+      <li>Authored comprehensive API documentation, improving team communication and collaboration, reducing onboarding time by 17%.</li>
+      </ul>
     ),
   },
   {
     date: 'January 2021 - May 2021',
     location: 'ICDCU Lab, Cincinnati',
-    title: 'Web Development Intern',
+    title: 'Software Engineer Intern',
     content: (
-      <p>
-        Created a platform to add, edit, delete and download project files allowing 35 lab members to collaborate on
-        research.
-      </p>
+      <ul>
+        <li>Developed a collaboration platform using Flask, Python and SQLite, supporting 35 members in improving file management efficiency.</li>
+        <li>Redesigned 3 authentication pages with Figma and Flask, enhancing security and UI/UX, thus reducing login time by an average of 2s.</li>
+        <li>Collaborated with stakeholders to gather requirements, streamlining workflows, increasing productivity per person by 4 hours/week.</li>
+      </ul>
     ),
   },
 ];
@@ -462,7 +484,7 @@ export const contact: ContactSection = {
     {
       type: ContactType.LinkedIn,
       text: 'Athulya Ganesh',
-      href: 'https://www.linkedin.com/in/athulya-ganesh/',
+      href: 'https://www.linkedin.com/in/athulyaganesh/',
     },
     {
       type: ContactType.Github,
@@ -477,6 +499,6 @@ export const contact: ContactSection = {
  */
 export const socialLinks: Social[] = [
   {label: 'Github', Icon: GithubIcon, href: 'https://github.com/athulyaganesh'},
-  {label: 'LinkedIn', Icon: LinkedInIcon, href: 'https://www.linkedin.com/in/athulya-ganesh/'},
+  {label: 'LinkedIn', Icon: LinkedInIcon, href: 'https://www.linkedin.com/in/athulyaganesh/'},
   {label: 'Email', Icon: EMailIcon, href: 'athulya.ganesh2001@gmail.com'},
 ];
